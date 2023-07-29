@@ -108,7 +108,7 @@ clear
 export LANG='en_US.UTF-8'
 export LANGUAGE='en_US.UTF-8'
 
-
+domain=$(cat /var/lib/SIJA/ipvps.conf | cut -d'=' -f2)
 # // Export Color & Information
 export RED='\033[0;31m'
 export GREEN='\033[0;32m'
@@ -201,7 +201,7 @@ fi
 function genssl(){
 clear
 systemctl stop nginx
-domain=$(cat /var/lib/scrz-prem/ipvps.conf | cut -d'=' -f2)
+#domain=$(cat /var/lib/scrz-prem/ipvps.conf | cut -d'=' -f2)
 Cek=$(lsof -i:80 | cut -d' ' -f1 | awk 'NR==2 {print $1}')
 if [[ ! -z "$Cek" ]]; then
 sleep 1
