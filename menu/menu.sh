@@ -190,7 +190,7 @@ echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━�
 read -n 1 -s -r -p "Press any key to back on menu"
 setting-menu
 else
-echo -e "domain=$host(cat /var/lib/SIJA/ipvps.conf | cut -d'=' -f2)"
+echo -e domain=$host'(cat /var/lib/SIJA/ipvps.conf | cut -d'=' -f2)'
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo "Dont forget to renew cert"
 echo ""
