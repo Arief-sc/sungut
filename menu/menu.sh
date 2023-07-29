@@ -201,7 +201,7 @@ fi
 function genssl(){
 clear
 systemctl stop nginx
-#domain=$(cat /var/lib/scrz-prem/ipvps.conf | cut -d'=' -f2)
+##### domain=$(cat /var/lib/scrz-prem/ipvps.conf | cut -d'=' -f2)
 domain=$(cat /var/lib/SIJA/ipvps.conf | cut -d'=' -f2)
 Cek=$(lsof -i:80 | cut -d' ' -f1 | awk 'NR==2 {print $1}')
 if [[ ! -z "$Cek" ]]; then
