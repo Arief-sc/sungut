@@ -32,7 +32,7 @@ wget -O speedtest "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/spee
 wget -O about "https://raw.githubusercontent.com/Arief-sc/sungut/main/menu/about.sh"
 wget -O auto-reboot "https://raw.githubusercontent.com/artanodrop/v4/main/menu/auto-reboot.sh"
 wget -O restart "https://raw.githubusercontent.com/artanodrop/v4/main/menu/restart.sh"
-wget -O bw "https://raw.githubusercontent.com/artanodrop/v4/main/menu/bw.sh"
+wget -0 traffic "https://raw.githubusercontent.com/Arief-sc/sungut/main/menu/me"
 # change port
 wget -O port-ssl "https://raw.githubusercontent.com/artanodrop/v4/main/port/port-ssl.sh"
 wget -O port-ovpn "https://raw.githubusercontent.com/artanodrop/v4/main/port/port-ovpn.sh"
