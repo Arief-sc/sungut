@@ -32,7 +32,7 @@ wget -O speedtest "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/spee
 wget -O about "https://raw.githubusercontent.com/Arief-sc/sungut/main/menu/about.sh"
 wget -O auto-reboot "https://raw.githubusercontent.com/artanodrop/v4/main/menu/auto-reboot.sh"
 wget -O restart "https://raw.githubusercontent.com/artanodrop/v4/main/menu/restart.sh"
-wget -O limitspeed "https://raw.githubusercontent.com/helmiau/autoscript-vps-gratis/tree/main/backup"
+wget -O limitspeed "https://raw.githubusercontent.com/helmiau/autoscript-vps-gratis/tree/main/backup/limitspeed.sh"
 wget -0 traffic "https://raw.githubusercontent.com/Arief-sc/sungut/main/menu/traffic.sh"
 # change port
 wget -O port-ssl "https://raw.githubusercontent.com/artanodrop/v4/main/port/port-ssl.sh"
